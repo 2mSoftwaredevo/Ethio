@@ -86,7 +86,7 @@ header ul li a {
   border-radius: 32px;
   height:90%;
   width: 80%;
-  margin: 0 120px ;
+
 }
 .Hero-text h2{
   margin-top: 228px;
@@ -399,7 +399,7 @@ padding-top: 96px;
 .logo-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 32px 0;
+  margin-top: 32px;
   border-top: #fff 3px solid;
   padding: 32px;
   justify-items: center;

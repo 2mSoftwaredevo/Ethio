@@ -82,13 +82,10 @@ header ul li a {
 }
 .Hero-imge img {
   margin: 16px;
-  /*border: 2px #E8B483 solid;*/
   border-radius: 32px;
   height:90%;
   width: 80%;
   margin: 0 120px ;
-  /*background-color: #fff;
-  opacity: 90%;*/
 }
 .Hero-text h2{
   margin-top: 228px;

@@ -111,8 +111,9 @@ header ul li a {
 .signup-form .Register a{
   color: #fff;  
 }
-.signup-form .Register a:hover{
+.signup-form .Register:hover{
   color:#1D267D ;
+  transform: 3s;
 }
 .signup-form .Agreement{
   color: #000;
@@ -122,7 +123,7 @@ header ul li a {
   color: #000;
   text-decoration: none;
 }
-.signup-form .Agreement a:hover{
+.signup-form .Agreement , .Register a:hover{
   color: #1D267D;
   text-shadow: rgba(0 , 0, 0, 0.4)
 }

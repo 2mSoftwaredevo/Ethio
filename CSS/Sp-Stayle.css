@@ -10,7 +10,7 @@
 body {
     font-family:"Poppins";
     font-size: 21px;
-    background-color: #fff;   
+    background-color: #e6e2e2;   
 }
 header {
     position: fixed;
@@ -67,18 +67,80 @@ header ul li a {
  #check{
    display: none;
  }
+ /* The Main page */
  .container{
   display: flex ;
   justify-content: center;
   margin-top: 144px;
+  height: 680px;
  }
+ .signup-form{
+  height: 630px;
+  background-color: #FFF;
+  padding :42px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(0 , 0, 0, 0.4);
+}
+.signup-form h3{
+  text-align: center;
+  padding-bottom: 16px;
+  color: #EB7F1C;
+}
+.text-area input {
+  height: 35px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #cbc8c8;
+  padding: 0 24px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.text-area p{
+  padding-top: 16px;
+  text-align: center;
+}
+.signup-form .Register{
+  text-align: center;
+  text-decoration: none;
+  margin: 16px 0;  
+  background-color: #EB7F1C;
+  border-radius: 8px;
+  padding: 8px 0;
+}
+.signup-form .Register a{
+  color: #fff;  
+}
+.signup-form .Register a:hover{
+  color:#1D267D ;
+}
+.signup-form .Agreement{
+  color: #000;
+ 
+}
+.signup-form .Agreement a{
+  color: #000;
+  text-decoration: none;
+}
+.signup-form .Agreement a:hover{
+  color: #1D267D;
+  text-shadow: rgba(0 , 0, 0, 0.4)
+}
+
  /* Footer contents */
 .footer-container{
 
   background-color: #474E68;
 }
+
+.text-area{
+  display: block;
+  justify-content: center;
+  align-items: center;  
+ 
+}
 .f-container{
-padding-top: 96px;
+padding-top: 48px;
   line-height: 32px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -108,10 +170,7 @@ padding-top: 96px;
   font-weight: bold;
   
 }
-.container{
-  height: 600px;
-  width: 100%;
-}
+
 /*.f-container */
 .logo-container img{
   width: 100px;
